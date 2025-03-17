@@ -2,6 +2,7 @@
 
 int main() {
   float myFloatNum;
-  printf("%.2f\n", myFloatNum); 
+  scanf("%.4f", &myFloatNum);
+  printf("%.4f", myFloatNum); 
   return 0;
 }
