@@ -3,6 +3,6 @@
 int main() {
   double myFloatNum;
   scanf("%f", &myFloatNum);
-  printf("You entered: %1f", myFloatNum); 
+  printf("You entered: %.4f", myFloatNum); 
   return 0;
 }
