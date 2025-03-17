@@ -5,4 +5,4 @@ int main() {
     scanf("%s", &mytext);
     printf("You entered: %s", mytext);
   return 0;
-}LPP
+}
