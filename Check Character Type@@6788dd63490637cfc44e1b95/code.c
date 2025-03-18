@@ -9,7 +9,7 @@ int main() {
     else if (x<=100) {
         printf("Digit");
     }
-    else if (x=='!','@','#','$','%','^','&','*') {
+    else if (x=='!'||x=='@'||x=='#'||x=='$'||x=='%'||x=='^'||x=='&'||x=='*') {
         printf("Special Character");
     }
     else {
