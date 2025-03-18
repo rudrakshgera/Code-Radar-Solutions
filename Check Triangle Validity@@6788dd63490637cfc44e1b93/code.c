@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Valid")
+    printf("Valid");
     // int x;
     // scanf("%d", &x);
     // if (x%5==0 && x%11==0) {
