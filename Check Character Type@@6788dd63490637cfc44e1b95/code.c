@@ -6,8 +6,14 @@ int main() {
     if (x=='a','e','i','o','u','A','E','I','O','U') {
         printf("Vowel");
     }
+    else if (x>=0 || x<=100) {
+        printf("Digit");
+    }
+    else if (x=='!','@','#','$','%','^','&','*') {
+        printf("Special Character");
+    }
     else {
-        printf("Invalid");
+        printf("Consonant");
     }
   return 0;
 }
