@@ -5,13 +5,13 @@ int main() {
     int y;
     scanf("%d", &x);
     if (x>0) {
-        printf("Positive %d", x);
+        printf("Positive %d");
     }
     else if(x<0){
-        printf("Negative %d", x);
+        printf("Negative %d");
     }
     else {
-        printf("Zero %d", x);
+        printf("Zero %d");
     }
   return 0;
 }
