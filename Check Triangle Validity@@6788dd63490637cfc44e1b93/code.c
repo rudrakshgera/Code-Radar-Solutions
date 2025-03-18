@@ -1,14 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    printf("Valid");
-    // int x;
-    // scanf("%d", &x);
-    // if (x%5==0 && x%11==0) {
-    //     printf("Divisible");
-    // }
-    // else {
-    //     printf("Not Divisible");
-    // }
+    int x;
+    int y;
+    int z;
+    scanf("%d", &x);
+    scanf("%d", &y);
+    scanf("%d", &z);
+    if (x+y>z && x+z>y && y+z>x) {
+        printf("Valid");
+    }
+    else {
+        printf("Invalid");
+    }
   return 0;
 }
