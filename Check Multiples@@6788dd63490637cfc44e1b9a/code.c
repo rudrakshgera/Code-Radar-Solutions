@@ -5,7 +5,7 @@ int main() {
     int y;
     scanf("%d", &x);
     scanf("%d", &y);
-    if (x%y) {
+    if (y%x) {
         printf("Yes");
     }
     else {
