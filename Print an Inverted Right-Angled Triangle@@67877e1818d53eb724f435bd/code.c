@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int x;
-    scanf("%d", &x);
-    while (x<5) {
-        printf("*");
-        x--;
+    int i;
+    scanf("%d", &i);
+    while (i<5) {
+        printf("*", i);
+        i++;
     }
   return 0;
 }
