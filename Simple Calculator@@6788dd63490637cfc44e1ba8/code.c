@@ -2,15 +2,12 @@
 
 int main() {
     double num1, num2, result;
-    char operator;
+    char ooperator;
 
-    printf("Enter an operator (+, -, *, /): ");
-    scanf(" %c", &operator); 
-
-    printf("Enter two numbers: ");
+    scanf(" %c", &ooperator); 
     scanf("%lf %lf", &num1, &num2);
 
-    switch (operator) {
+    switch (ooperator) {
         case '+':
             result = num1 + num2;
             printf("Result: %.2lf\n", result);
@@ -28,7 +25,7 @@ int main() {
                 result = num1 / num2;
                 printf("Result: %.2lf\n", result);
             } else {
-                printf("Error! Division by zero is not allowed.\n");
+                printf("%d");
             }
             break;
         default:
