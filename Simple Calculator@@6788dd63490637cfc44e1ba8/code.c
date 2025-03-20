@@ -15,8 +15,5 @@ int main() {
     else if (z=='/') {
         printf("%d", x/y);
     }
-    else {
-        printf("Invalid", x);
-    }
   return 0;
 }
