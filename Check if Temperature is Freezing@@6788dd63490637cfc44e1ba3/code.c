@@ -4,10 +4,10 @@ int main() {
     int x;
     scanf("%d", &x);
     if (x<=0) {
-        printf("Freezing", x,y);
+        printf("Freezing", x);
     }
     else {
-        printf("Above Freezing", x,y);
+        printf("Above Freezing", x);
     }
   return 0;
 }
