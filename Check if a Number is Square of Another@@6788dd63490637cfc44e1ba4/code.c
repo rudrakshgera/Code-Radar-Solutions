@@ -5,11 +5,11 @@ int main() {
     int y;
     scanf("%d", &x);
     scanf("%d", &y);
-    if (x^2==y) {
-        printf("Yes");
+    if (y==x^2) {
+        printf("Yes %d", x,y);
     }
     else {
-        printf("No");
+        printf("No %d", x,y);
     }
   return 0;
 }
