@@ -6,10 +6,10 @@ int main() {
     scanf("%d", &x);
     scanf("%d", &y);
     if (x==y^2) {
-        printf("Yes %d", x,y);
+        printf("Yes");
     }
     else {
-        printf("No %d", x,y);
+        printf("No");
     }
   return 0;
 }
