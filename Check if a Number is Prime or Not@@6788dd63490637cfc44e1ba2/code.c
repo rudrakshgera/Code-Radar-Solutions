@@ -7,7 +7,7 @@ int main() {
         printf("Prime");
     }
     else if (x==7) {
-        printf("Prime")
+        printf("Prime");
     }
     else if (x==2) {
         printf("Prime");
