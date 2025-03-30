@@ -2,7 +2,6 @@
 
 int main() {
     int n;
-    printf("Enter diamond height: ");
     scanf("%d", &n);
     // Upper half
     for (int i = 1; i <= n; i += 2) {
